@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.clr {
+    clear: both;
+}
+
+body, input, button, option, textarea, label, select, legend, h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font: 14px/18px Arial, Helvetica, sans-serif;
+    color: #333;
+    outline: none;
+}
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    text-rendering: geometricPrecision;
+}
+input[type=text], input[type=tel], textarea {
+    -webkit-appearance: none;
+}
+p{
+    font-family: Arimo;
+    font-size: 17px !important;
+    line-height: 30px !important;
+}
+.block-header img{
+    width: 100%;
+}
+.container{
+    max-width: 705px;
+    margin: 0 auto;
+}
+.img-mid{
+    width: 100%;
+}
+.text-mid{
+    margin-bottom: 8px;
+}
+.img-fullscreen{
+    width: 100%;
+}
+.img-fullsize{
+    margin: 0 auto;
+    display: block;
+}
